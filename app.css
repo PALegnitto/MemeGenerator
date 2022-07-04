@@ -1,0 +1,49 @@
+body {
+    background-color:#664584;
+}
+
+header {
+    text-align:  center;
+    background-color: #5b377c;
+    border-bottom: 5px;
+    border-color: #401766;
+    border-style: ridge;
+    
+
+}
+h1 {
+    color:#fcb700;
+}
+
+.input-labels {
+    color:white;
+}
+
+#image-inputs {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+#friends-header {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#border {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#past-box-container {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    
+}
+
+.past-meme {
+    border: #5b377c;
+    border-width: 5px;
+    border-style: groove;
+}
