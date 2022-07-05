@@ -12,31 +12,32 @@
 </head>
 <body>
     <header>
-        <h1> Memes for your <span id="friends-header">F.R.I.E.N.D.S</span></h1>
-
+       <!-- <h1> Memes for your <span id="friends-header">F.R.I.E.N.D.S</span></h1>-->
+            <h1> Meme Generator</h1>
         <div id="image-inputs">
-            <form action="">
+            <form action="" class="form-inputs">
+                <!-- <button id="clear-button" type="button">Clear Meme</button> -->
                 <label class="input-labels" for="image-url">Image URL</label>
                 <input type="text" id="image-url" name="image-url">
                 <label class="input-labels" for="upper-text">Text On Top</label>
                 <input type="text" id="upper-text" name="upper-text">
                 <label class="input-labels" for="lower-text">Text On Bottom</label>
-                <input class="input-labels" type="text" id="lower-text" name="lower-text">
+                <input type="text" id="lower-text" name="lower-text">
                 <input type="submit">
+                
             </form>      
         </div>  
     </header>
     <main> 
+          
+            <div class="meme-box">
+             <!--new meme container divs created here by js -->
+            </div>
         
-       
-        <img id="border" src="freinds border 1.png" alt="the picture frame from the door in friends">
+
+        
     </main>
-    <footer id="past-box-container">
-        <div class="past-meme" id="past-box-1">test</div>
-        <div class="past-meme" id="past-box-2">test</div>
-        <div class="past-meme" id="past-box-3">test</div>
-        <div class="past-meme" id="past-box-4">test</div>
-    </footer>
-    
+  
 </body>
+<script type="text/javascript" src="app.js"></script>
 </html>

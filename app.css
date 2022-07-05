@@ -1,22 +1,22 @@
 body {
-    background-color:#664584;
+    background-color: white;
 }
 
 header {
     text-align:  center;
-    background-color: #5b377c;
+    background-color: #ebe4f1;
     border-bottom: 5px;
-    border-color: #401766;
+    border-color: #59575c;
     border-style: ridge;
     
 
 }
 h1 {
-    color:#fcb700;
+    color:blaCK;
 }
 
 .input-labels {
-    color:white;
+    color:black;
 }
 
 #image-inputs {
@@ -25,25 +25,80 @@ h1 {
     justify-content: center;
 }
 
+/*
 #friends-header {
     font-family: 'Permanent Marker', cursive;
 }
-
-#border {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
+*/
 
 #past-box-container {
     display: flex;
     flex: auto;
     justify-content: space-evenly;
+    align-items: baseline;
     
 }
 
-.past-meme {
-    border: #5b377c;
-    border-width: 5px;
-    border-style: groove;
+.meme-box {
+    height: 300px;
+    width : 500px;
+    border-style: ridge;
+    border: 5px;
+    margin: auto;
+
+}
+
+.meme-class:hover {
+filter: brightness(0%);
+visibility: visible;
+}
+
+.meme-class {
+    position: relative;
+    height: 400px;
+    width: auto;
+}
+
+.upper-text-display {
+top: 0;
+}
+
+.lower-text-display {
+bottom: 0;
+}
+
+.delete-message:hover {
+    visibility: visible;
+}
+
+
+.delete-message {
+    top: 50%;
+    width: 100%;
+    position: absolute ;
+    text-align: center;
+    font-size: xx-large;
+    background-color:black;
+    color: white;
+    visibility: hidden;
+}
+
+
+
+
+.img-txt {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size:x-large ;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+}
+
+
+.img-display {
+    height: 400px;
+    width: auto;
+    
 }
